@@ -1,0 +1,324 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+}
+
+.container {
+  margin-top: 100px; /* Adjust as needed */
+}
+
+.navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
+  color: #007bff;
+}
+
+.navbar-nav .nav-link {
+  color: #333;
+}
+
+.text-center {
+  margin-top: 30px;
+}
+
+.navigation-links {
+  text-align: center;
+}
+
+.primary-link, .secondary-link {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 10px;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.primary-link {
+  background-color: #007bff;
+}
+
+.secondary-link {
+  background-color: #6c757d;
+}
+
+.project-link {
+  margin-top: 20px;
+}
+
+/* Project Cards */
+.col-sm-6 {
+  margin-bottom: 30px;
+}
+
+.project-card {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.project-card h2 {
+  color: #333;
+}
+
+.project-card p {
+  color: #666;
+}
+
+.project-link {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 20px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #007bff;
+  border-radius: 5px;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+
+  /* Global Styles */
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Navigation Styles */
+nav {
+  background-color: #f8f9fa;
+  padding: 20px 0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 600;
+}
+
+nav ul li.active a {
+  color: #007bff;
+}
+
+/* Content Styles */
+.content-container {
+  padding: 40px 0;
+}
+
+.content {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.content h1 {
+  font-size: 36px;
+  color: #333;
+}
+
+.content h3 {
+  font-size: 24px;
+  color: #333;
+}
+
+.content p {
+  font-size: 18px;
+  color: #666;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+/* Link Styles */
+a {
+  color: #007bff;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+/* Apply styles to the container */
+.container {
+  padding: 20px;
+}
+
+/* Style for the title */
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* Style for the card */
+.card {
+  margin-bottom: 20px;
+}
+
+/* Style for the card title */
+.card-title {
+  font-size: 1.5rem;
+}
+
+/* Style for the card text */
+.card-text {
+  font-size: 1rem;
+}
+
+/* Style for the launch button */
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+/* Change button color on hover */
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+/* Apply styles to the container */
+.container {
+  padding: 20px;
+}
+
+/* Style for the title */
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* Style for the card */
+.card {
+  margin-bottom: 20px;
+}
+
+/* Style for the card title */
+.card-title {
+  font-size: 1.5rem;
+}
+
+/* Style for the card text */
+.card-text {
+  font-size: 1rem;
+}
+
+/* Style for the launch button */
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+/* Change button color on hover */
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+/* CSS for images within cards */
+.card-img-top {
+  width: 100%;
+  height: auto;
+}
+
+/* Optional: Add margin or padding to space out the images */
+.card-body {
+  padding: 20px; /* Adjust as needed */
+}
+
+footer {
+  margin: 60px 0;
+}
+
+footer .contact-box {
+  background: light purple; 
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+
+footer .contact-box p {
+  margin: 0;
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: rgb(214, 84, 214);
+  font-size: 24px;
+}
+
+footer .email-link:hover {
+  color: var(--branding-color);
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: light purple;
+  background: var(-secondary-color);
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 18px;
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: white;
+  background: var(--branding-color);
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 44px;
+    line-height: 1.5;
+  }
+
+  h2 {
+    font-size: 44px;
+  }
+
+  h4 {
+    font-size: 26px;
+  }
+
+  .hero {
+    padding: 80px 20px;
+  }
+
+  .content {
+    text-align: center;
+    padding: 0;
+  }
+
+  .project-desciption {
+    padding: 0;
+    text-align: center;
+  }
+}
+
+
